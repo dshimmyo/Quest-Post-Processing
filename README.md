@@ -3,6 +3,8 @@ A barebones project in Unity 2019.4.28f1 set up with URP and PostProcessing with
 
 ![Test Image](questPostProcessing.png)
 
+Warning: This is a performance-heavy effect. In such a simple scene you might get 72fps on a Quest (I haven't checked) but definitely on a Quest 2. Unfortunately you won't be able to turn on Fixed Foveate Rendering and MSAA will also clobber performance. It's just a very beautiful effect and I'm still stubbornly using it despite those limitations.  
+  
 
 Project setup from scratch step-by-step from memory and scribbled notes:  
 I'm using Unity 2019.4.28  
